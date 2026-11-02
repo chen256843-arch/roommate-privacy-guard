@@ -1,0 +1,31 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# PyInstaller build output
+build/
+build-onefile/
+dist/
+dist-onefile/
+*.spec
+
+# Packaged / portable artifacts
+*.exe
+*.zip
+PrivacyGuard-Windows/
+PrivacyGuard-Portable/
+
+# Portable-mode local data (never commit personal data)
+portable.ini
+data/
+recordings/
+snapshots/
+owner.npy
+settings.json
+*.mp4
+*.wav
+
+# OS
+.DS_Store
+Thumbs.db
